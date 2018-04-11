@@ -1,0 +1,6 @@
+CREATE VIEW ibk.INFORMACION_SOCIODEMOGRAFICA_VIEW
+AS
+select 
+MES,DOCUMENTOIDENT,departamento,flg_celular,
+flg_email,flg_telefono,rng_edad,provincia,sexo,situacion_laboral
+from ibk.INFORMACION_SOCIODEMOGRAFICO
